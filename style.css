@@ -1,0 +1,503 @@
+*{
+    outline: none; border:none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+	
+	
+}
+.st{
+	width:100%;
+	height: auto;
+	color: darkred;
+	
+}.hf1{
+	font-size: 3rem;
+	font-style: bold;
+	font-weight: 800;
+	margin-left: 10px;
+	animation: color 2s infinite;
+	margin-top: -10rem;
+}#me{
+	color: blue;
+}#di{
+	color: rgb(245, 14, 14);
+}#ka{
+	color: rgb(0, 255, 0);
+} @keyframes color{
+    0%{
+		opacity: 0;
+        letter-spacing: normal;
+    }50%{
+		enable-background: accumulate;
+        opacity: 1;}}
+.menub{
+	margin: top -5rem;;
+	width: 100%;
+	height: 60px;
+	border-radius: 20px 0 20px 0;
+}
+.navbar{
+     margin-left: 30%;
+     margin-top: -50px;
+	 position: fixed;
+	 overflow: hidden;
+	
+}.navbar a{
+	text-decoration: none;
+	font-size: 1.8rem;
+	padding: 0 5px;
+	display: inline-block;
+	border: 2px solid rgba(0, 47, 255, 0.993);
+	color: rgb(248, 149, 149);
+	background-color: rgb(81, 201, 238);
+	overflow: hidden;
+}.navbar a:hover{
+	scale: 1.2;
+	background-color: black;
+	color: deeppink;
+}
+.homep{
+	width: 100%;
+	height: 565px;
+	margin-top: 8px;
+	background-image: url(publicdomainq-medicine-doctor-and-nurse.svg);
+	background-repeat: no-repeat;
+}.homeh1{
+	font-size: 7rem;
+	font-weight: 900;
+	margin-left: 69%;
+	margin-top: px;
+	top: 0;
+	color: aqua;
+	animation: mnp 2s infinite;
+}
+@keyframes mnp{
+    0%{
+		opacity: 1;
+        color: lime;
+    }40%{
+		color: tomato;
+        opacity: 1;}
+		60%{
+			opacity: 1;
+			color: rgb(162, 0, 255);
+		}
+		100%{
+			opacity: 1;
+			color: rgb(217, 255, 0);
+		}
+	}
+	.services{
+	background-color: rgb(255, 255, 255);
+	float: left;
+	height: 700px;
+	width: 100%;
+}.h1a{
+	width: auto;
+	height: auto;
+	text-align: center;
+	padding-bottom: -10rem;
+	font-size: 4rem;
+	color: orangered;
+	font-weight: 900;
+}.medicine{
+	height: 220px;
+	width: 200px;
+	margin-left: 10px;
+	margin-top: 5rem;
+	border: 2px solid rgba(0, 47, 255, 0.993);
+	border-radius: 30px 0 30px 0;
+}.medicine:hover{
+	background-color: rgb(252, 185, 41);
+	border-color: red;
+	border-radius: 0 30px 0 30px;
+}
+.medicine img{
+	width: 100px;
+	height: 100px;
+	margin-top: 1rem;
+	margin-left: 2.5rem;
+}.medicine h3{
+		font: 700;
+		color:lightseagreen;
+		margin-left: 1.5rem;
+		margin-top: 2.5rem
+}.Ambulance{
+	height: 220px;
+	width: 200px;
+	margin-left: 14.5rem;
+	margin-top:-14rem;
+	border: 2px solid rgb(8, 224, 8);
+	border-radius: 10px;
+	border-radius: 30px 0 30px 0;
+}.Ambulance:hover{
+	background-color: rgb(252, 185, 41);
+	border-color: red;
+	border-radius: 0 30px 0 30px;
+	
+}
+.Ambulance img
+{
+	transform: rotate(360deg);
+	width: 100px;
+	height: 100px;
+	margin-top: 1rem;
+	margin-left: 50px;
+}.Ambulance h3{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 1.5rem;
+	margin-top: 2.5rem;
+}.Ambulance p{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 10px;
+}
+.BestDoctor{
+	height: 220px;
+	width: 200px;
+	margin-left: 28.5rem;
+	margin-top:-14rem;
+	border: 2px solid rgba(0, 47, 255, 0.993);
+	border-radius: 30px 0 30px 0;
+}.BestDoctor:hover{
+	background-color: rgb(252, 185, 41);
+	border-color: red;
+	border-radius: 0 30px 0 30px;
+}
+.BestDoctor img
+{
+	transform: rotate(360deg);
+	width: 100px;
+	height: 100px;
+	margin-top: 18px;
+	margin-left: 40px;
+}.BestDoctor h3{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 2rem;
+	margin-top: 2.5rem;
+}.BestDoctor p{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 10px;
+}
+.Diagnosis{
+	height: 220px;
+	width: 200px;
+	margin-left: 42.5rem;
+	margin-top:-14rem;
+	border: 2px solid rgba(0, 47, 255, 0.993);
+	border-radius: 30px 0 30px 0;
+}.Diagnosis:hover{
+	background-color: rgb(252, 185, 41);
+	border-color: red;
+	border-radius: 0 30px 0 30px;
+}
+.Diagnosis img
+{
+	transform: rotate(360deg);
+	width: 100px;
+	height: 100px;
+	margin-top: 1rem;
+	margin-left: 50px;
+}.Diagnosis h3{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 2.8rem;
+	margin-top: 2.5rem;
+}.Diagnosis h3 a{
+	color: aqua;
+}.Diagnosis p{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 10px;
+}
+.Bed{
+	height: 220px;
+	width: 200px;
+	margin-left: 56.5rem;
+	margin-top:-14rem;
+	border: 2px solid rgba(0, 47, 255, 0.993);
+	border-radius: 30px 0 30px 0;
+}.Bed:hover{
+	background-color: rgb(252, 185, 41);
+	border-color: red;
+	border-radius: 0 30px 0 30px;
+}
+.Bed img
+{
+	transform: rotate(360deg);
+	width: 100px;
+	height: 100px;
+	margin-top: 1rem;
+	margin-left: 50px;
+}.Bed h3{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 2rem;
+	margin-top: 1.5rem;
+}.Bed p{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 10px;
+}
+.neurosurgery{
+	height: 220px;
+	width: 200px;
+	margin-left: 70.5rem;
+	margin-top:-14rem;
+	border: 2px solid rgba(0, 47, 255, 0.993);
+	border-radius: 30px 0 30px 0;
+}.neurosurgery:hover{
+	background-color: rgb(212, 183, 51);
+	border-color: red;
+	border-radius: 0 30px 0 30px;
+}.neurosurgery img
+{
+	transform: rotate(360deg);
+	width: 100px;
+	height: 100px;
+	margin-top: 1.2rem;
+	margin-left: 50px;
+}.neurosurgery h3{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 2rem;
+	margin-top: 2.5rem;
+}.neurosurgery p{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 10px;
+}
+.hospital{
+	height: 220px;
+	width: 200px;
+	margin-left: 10px;
+	margin-top:4rem;
+	border: 2px solid rgba(0, 47, 255, 0.993);
+	border-radius: 30px 0 30px 0;
+}.hospital:hover{
+	background-color: rgb(252, 185, 41);
+	border-color: red;
+	border-radius: 0 30px 0 30px;
+}.hospital img
+{
+	transform: rotate(360deg);
+	width: 100px;
+	height: 100px;
+	margin-top: 1.2rem;
+	margin-left: 50px;
+}.hospital h3{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 2rem;
+	margin-top: 2.5rem;
+}.hospital p{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 10px;
+}
+.Cardiology{
+	height: 220px;
+	width: 200px;
+	margin-left: 14.5rem;
+	margin-top:-14rem;
+	border: 2px solid rgba(0, 47, 255, 0.993);
+	border-radius: 30px 0 30px 0;
+}.Cardiology:hover{
+	background-color: rgb(252, 185, 41);
+	border-color: red;
+	border-radius: 0 30px 0 30px;
+}.Cardiology img
+{
+	transform: rotate(360deg);
+	width: 100px;
+	height: 100px;
+	margin-top: 1.2rem;
+	margin-left: 50px;
+}.Cardiology h3{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 2rem;
+	margin-top: 2.5rem;
+}.Cardiology p{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 10px;
+}
+.surgery{
+	height: 220px;
+	width: 200px;
+	margin-left: 28.5rem;
+	margin-top:-14rem;
+	border: 2px solid rgba(0, 47, 255, 0.993);
+	border-radius: 30px 0 30px 0;
+}.surgery:hover{
+	background-color: rgb(252, 185, 41);
+	border-color: red;
+	border-radius: 0 30px 0 30px;
+}.surgery img
+{
+	transform: rotate(360deg);
+	width: 100px;
+	height: 100px;
+	margin-top: 1.2rem;
+	margin-left: 50px;
+}.surgery h3{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 2rem;
+	margin-top: 2.5rem;
+}.surgery p{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 10px;
+}
+.bone{
+	height: 220px;
+	width: 200px;
+	margin-left: 42.5rem;
+	margin-top:-14rem;
+	border: 2px solid rgba(0, 47, 255, 0.993);
+}
+.bone:hover{
+	background-color: rgb(252, 185, 41);
+	border-color: red;
+	border-radius: 0 30px 0 30px;
+}.bone img
+{
+	transform: rotate(360deg);
+	width: 100px;
+	height: 100px;
+	margin-top: 1.2rem;
+	margin-left: 50px;
+}.bone h3{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 2rem;
+	margin-top: 2.5rem;
+}.bone p{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 10px;
+}
+.Kidny{
+	height: 220px;
+	width: 200px;
+	margin-left: 56.5rem;
+	margin-top:-14rem;
+	border: 2px solid rgba(0, 47, 255, 0.993);
+	border-radius: 30px 0 30px 0;
+}.Kidny:hover{
+	background-color: rgb(252, 185, 41);
+	border-color: red;
+	border-radius: 0 30px 0 30px;
+}.Kidny img
+{
+	transform: rotate(360deg);
+	width: 100px;
+	height: 100px;
+	margin-top: 1.2rem;
+	margin-left: 50px;
+}.Kidny h3{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 2rem;
+	margin-top: 2.5rem;
+}.Kidny h3 a{
+	color: aqua;
+}
+.Kidny p{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 10px;
+}.audio{
+	height: 220px;
+	width: 200px;
+	margin-left: 70.5rem;
+	margin-top:-14rem;
+	border: 2px solid rgba(0, 47, 255, 0.993);
+	border-radius: 30px 0 30px 0;
+}.audio:hover{
+	background-color: rgb(252, 185, 41);
+	border-color: red;
+	border-radius: 0 30px 0 30px;
+}
+.audio img
+{
+	transform: rotate(360deg);
+	width: 100px;
+	height: 100px;
+		margin-top: 1.2rem;
+	margin-left: 50px;
+}.audio h3{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 2.8rem;
+	margin-top: 2.5rem;
+}.audio p{
+	font: 700;
+	color:lightseagreen;
+	margin-left: 10px;
+}.book{
+	background-color:transparent;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	margin-top: 50rem;
+}.contact{
+	margin-left: 8rem;
+	height: 200px;
+     margin-top: 20rem;
+	 margin-right: 8rem;
+}
+.contact form h3{
+    color:var(--black);
+    text-align: center;
+    padding-bottom: .5rem;
+    font-size: 3rem;
+    text-transform: capitalize;
+	margin-top: -5rem;
+}
+
+.contact form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .inputBox input,
+.contact form textarea{
+    width:43%;
+    background:rgb(215, 224, 224);
+    padding:1rem;
+    margin:.7rem 0;
+    border-radius: .5rem;
+    color:var(--black);
+    font-size: 1.5rem;
+    opacity: 90%;
+}
+
+.contact form .inputBox input{
+    width:40%;
+}.btns{
+	text-decoration: none;
+	color: rgb(16, 238, 182);
+	font-size: 25px;
+	padding: 10px 30px;
+	border: 3px solid #1fe8b6;
+	margin-left: 10rem;
+	background-color: brown;
+	overflow: hidden;
+}.btns:hover{
+	scale: 1.5;
+}.doct{
+	width: 100px;
+	height: 500px;
+	background-color:blueviolet ;
+	margin-top: 400pc;
+}.dct{
+	width: 200px;
+	height: 300px;}
